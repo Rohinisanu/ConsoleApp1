@@ -52,12 +52,11 @@ namespace ConsoleApp1.OOPS
             a1.Accountnumber = (10000000000000295);
             a1.Customername = ("Rohini Gite");
             a1.Balance = 20000;
-            a1.Deposit = 4000;
             a1.CheckBalance();
             Console.WriteLine(a1.Accountnumber);
             Console.WriteLine(a1.Customername);
             Console.WriteLine(a1.Balance);
-            Console.WriteLine(a1.Deposit);
+            
         }
   
     }
