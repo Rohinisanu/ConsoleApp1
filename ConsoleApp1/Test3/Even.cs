@@ -6,15 +6,15 @@ namespace ConsoleApp1.Test3
 {
     class Even
     {
-        public bool isEeven(int n)
+        public bool isEven(int n)
         {
 
-            while (n > 0)
-            {
+            
+            
 
                 if (n % 2 == 0)
                     return true;
-            }
+            
             return false;
         }
 

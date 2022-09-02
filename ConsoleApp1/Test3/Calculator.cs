@@ -12,20 +12,21 @@ namespace ConsoleApp1.Test3
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
          }
-        public void add()
+        public int add()
         {
             c = a + b;
-
+            return c;
         }
         public void sub()
         {
             c = b - a;
             Console.WriteLine("Subtraction="+c);
         }
-        public void mul()
+        public int mul()
         {
             c = a * b;
-            Console.WriteLine("Multiplication="+c);
+            return c;
+            
         }
          public void div()
         {
@@ -36,11 +37,11 @@ namespace ConsoleApp1.Test3
         {
             Calculator c1 = new Calculator();
             c1.readdata();
-            c1.add();
+          int sum= c1.add();
             c1.sub();
-            c1.mul();
+          int mul=c1.mul();
             c1.div();
-            
+            Console.WriteLine(sum+" " +mul);
         }
 
     }

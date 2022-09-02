@@ -18,7 +18,7 @@ namespace ConsoleApp1.Test3
             area = length * breadth;
             perimeter = 2 * (length + breadth);
         }
-        void dislpay()
+        void display()
         {
             Console.WriteLine("area=" + area + "perimeter=" + perimeter);
         }

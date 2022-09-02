@@ -32,7 +32,10 @@ namespace ConsoleApp1.Test3
             this.price = price;
 
         }
-    
+        public Book()
+        {
+                
+        }
         class BookDemo
         {
             static void Main(string[] args)

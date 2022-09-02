@@ -35,6 +35,7 @@ namespace ConsoleApp1.Test3
                 }
                 Console.WriteLine(sum);
             }
+        }
             static void Main(string[] args)
             {
                 MethodOverloading m1 = new MethodOverloading();
@@ -44,6 +45,6 @@ namespace ConsoleApp1.Test3
         }
 
     }
-}
+
     
 

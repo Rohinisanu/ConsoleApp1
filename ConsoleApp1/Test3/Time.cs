@@ -10,9 +10,9 @@ namespace ConsoleApp1.Test3
         void set_time()
         {
             Console.WriteLine("Enter hour,min,sec");
-            int hour = int.Parse(Console.ReadLine());
-            int min = int.Parse(Console.ReadLine());
-            int sec = int.Parse(Console.ReadLine());
+             hour = int.Parse(Console.ReadLine());
+            min = int.Parse(Console.ReadLine());
+            sec = int.Parse(Console.ReadLine());
             
         }
         void show_time()

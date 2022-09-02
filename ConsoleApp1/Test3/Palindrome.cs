@@ -26,8 +26,8 @@ namespace ConsoleApp1.Test3
         {
             Palindrome p = new Palindrome();
             Console.WriteLine("Enter a number");
-            int n = int.Parse(Console.ReadLine());
-            bool b = p.isPalindrome();
+            int num = int.Parse(Console.ReadLine());
+            bool b = p.isPalindrome(num);
             Console.WriteLine(b);
 
         }
