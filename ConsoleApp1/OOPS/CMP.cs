@@ -4,13 +4,13 @@ using System.Text;
 
 namespace ConsoleApp1.OOPS
 {
-    class Compass
+    class CMP
     {
         string compassbrand;
         int price;
         Pen p;
-        public Compass()
-            {
+        public CMP()
+        {
 
         }
         public virtual string Compassbrand
@@ -20,7 +20,7 @@ namespace ConsoleApp1.OOPS
         }
         public virtual int Price
         {
-            set { price = value;}
+            set { price = value; }
             get { return price; }
         }
 
@@ -34,11 +34,11 @@ namespace ConsoleApp1.OOPS
             {
 
             }
-            public Pen(string penbrand,int penprice,string inkcolor)
+            public Pen(string penbrand, int penprice, string inkcolor)
             {
                 this.penbrand = penbrand;
                 this.penprice = penprice;
-                this.inkcolor= inkcolor;
+                this.inkcolor = inkcolor;
             }
 
             public string Penbrand
@@ -58,18 +58,26 @@ namespace ConsoleApp1.OOPS
                 set { inkcolor = value; }
                 get { return inkcolor; }
             }
-            
+
 
         }
-            static void Main(string[] args)
-            {
-            Compass c1 = new Compass();
+        public override string ToString()
+        {
+            return "Cmpbrand:" + Compassbrand + "Cprice:" + Price;
+        }
+        static void Main(string[] args)
+        {
+            CMP c1 = new CMP();
             c1.Compassbrand = "Camel";
             c1.Price = 250;
-            Pen p1 = new Pen("Trimax", 45,"red");
+            Pen p1 = new Pen("Trimax", 45, "red");
             c1.p = p1;
-            Console.WriteLine(c1.p.Penbrand);
-            
-            }
+            Console.WriteLine(c1.Compassbrand);
+            Console.WriteLine(c1.p);
+        }
     }
 }
+
+
+    
+

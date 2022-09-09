@@ -9,12 +9,13 @@ namespace ConsoleApp1.Test3
         public bool isEven(int n)
         {
 
-            
-            
 
-                if (n % 2 == 0)
-                    return true;
-            
+
+
+            if (n % 2 == 0)
+                return true;
+            else
+        
             return false;
         }
 
