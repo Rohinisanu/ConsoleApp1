@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1.Patterns
+namespace ConsoleApp1.Test5
 {
-    class Number
+    class PatternAns9
     {
         static void Main(string[] args)
         {
-            for (int r = 5; r >= 1; r--)
+            for(int r=1;r<=4;r++)
             {
-                for (int c = 5; c >= r; c--)
+                for (int c=1;c<=r;c++)
                     Console.Write(r);
-
-                Console.WriteLine();
+                Console.WriteLine(" ");
             }
         }
     }

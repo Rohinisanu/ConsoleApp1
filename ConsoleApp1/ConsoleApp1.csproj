@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>ConsoleApp1.Arrays.Divisiblearray</StartupObject>
+	  <StartupObject>ConsoleApp1.Test5.PatternAns9</StartupObject>
 	  
 	  
 	  </PropertyGroup>
