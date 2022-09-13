@@ -12,16 +12,17 @@ namespace ConsoleApp1.Test5
             if (ch == 's')
             {
                 sum = num * num;
-                Console.WriteLine("Square:" + sum);
+               
 
 
             }
             else
             {
                 sum = num * num * num;
-                Console.WriteLine("Cube=" + sum);
+                
 
             }
+            Console.WriteLine(sum);
 
         }
         void num_calc(int a, int b, char ch)
@@ -32,7 +33,7 @@ namespace ConsoleApp1.Test5
             else
                 sum = a + b;
 
-
+            Console.WriteLine(sum);
         }
         static void Main(string[] args)
         {

@@ -10,7 +10,7 @@ namespace ConsoleApp1.Arrays
         {
             int[] b = new int[5];
             Console.WriteLine("Enter 5 Elements");
-            for(int i=0;i<10;i++)
+            for(int i=0;i<5;i++)
             {
                 b[i] = int.Parse(Console.ReadLine());
             }

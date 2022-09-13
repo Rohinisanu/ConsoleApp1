@@ -8,12 +8,14 @@ namespace ConsoleApp1.Arrays
     {
         static void Main(string[] args)
         {
-            int[] a = { 10, 20, 30, 50, 60 };
+            Console.WriteLine("Enter a size");
+            int s = int.Parse(Console.ReadLine());
+            int[] a = new int[s];
 
             for (int i = 0; i < a.Length; i++)
             {
 
-                Console.WriteLine("Enter the elements");
+                
                 a[i] = int.Parse(Console.ReadLine());
 
             }
