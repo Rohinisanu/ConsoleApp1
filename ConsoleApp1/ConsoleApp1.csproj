@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>ConsoleApp1.Test5.OverloadAns5</StartupObject>
+	  <StartupObject>ConsoleApp1.Arrays.Array2d</StartupObject>
 	  
 	  
 	  </PropertyGroup>
